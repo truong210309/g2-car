@@ -1,0 +1,278 @@
+<div class="container" ng-controller="productCtrl">
+    <div class="grid-row">
+
+
+        <div class="product-item">
+            <div class="filter-search">
+                <h3 class="heading__title-search">
+                    <span style="color: rgb(250, 168, 4);">20</span> VEHICLES AVAILABLE
+                </h3>
+
+                <div class="heading__sortby-search">
+
+                    <label for="" style="color: white; padding-right: 10px;">SORT BY : </label>
+                    <input style="height: 30px;" type="text" name="search" ng-model="mSearch"
+                        placeholder="Search : brand , price , range ,...">
+
+                    <a href="">
+                        <i style="color:#959494; padding-left: 40px;" class="fa-solid fa-bars"></i>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="product-cart-item" ng-repeat="item in cars | filter : nameParam | filter: mSearch">
+
+                <div class="cart-item-img">
+
+                    <a href="#!/detail/{{item.id}}">
+                        <img src={{item.image}} alt="">
+                    </a>
+                </div>
+
+                <div class="cart-item-info">
+                    <div class="cart-item-info__heading s">
+
+                        <h3 class="cart-item-info__title">
+                            <a href="#!/detail/{{item.id}}"> {{item.name}}</a>
+                        </h3>
+
+                        <span class="cart-item-info__price">
+                            {{item.price}}
+                        </span>
+
+                    </div>
+
+                    <ul class="cart-item-info__thum">
+
+                        <li class="cart-item-info__thum-year">
+                            <i class="fa-solid fa-road-circle-exclamation" style="color: #909192;"></i>
+                            YEAR : {{item.year}}
+                            <!--YEAR :
+                                 <span>
+                                    2022
+                                </span> -->
+                        </li>
+                        <!-- <img src="./image/mercedes/2.png" alt=""> -->
+                        <span class="separation">|</span>
+
+                        <li class="cart-item-info__thum-year ">
+                            <i class="fa-solid fa-road-circle-exclamation" style="color: #787a7d;"></i>
+                            MILEAGE : {{item.mileage}} km
+                            <!-- MILEAGE :
+                                <span>
+                                    0ml
+                                </span> -->
+                        </li>
+
+                        <span class="separation">|</span>
+
+                        <li class="cart-item-info__thum-year">
+                            <i class="fa-solid fa-gas-pump" style="color: #95948e;"></i>
+                            FUEL TYPE : {{item.Fuel_type}}
+                            <!-- FUEL TYPE :
+                                <span>
+                                    Petro
+                                </span> -->
+                        </li>
+                    </ul>
+
+                    <div class="cart-item-info__btn ">
+                        <a href="" class="cart-item-info__btn-link ">
+                            <i style="margin-top: 10px; margin-right: 10px; color: rgb(240, 163, 10);"
+                                class="fa-solid fa-gauge"></i>
+                            SCHAEDULE TEST DRIVE
+                        </a>
+
+                        <a href="" class="cart-item-info__btn-link ">
+                            <i style="margin-top: 10px; margin-right: 10px; color: rgb(240, 163, 10);"
+                                class="fa-solid fa-barcode"></i>ADD
+                            TO COMPARE
+                        </a>
+
+                        <a href="" class="cart-item-info__btn-link">
+                            <i style="margin-top: 10px; margin-right: 10px;  color: rgb(240, 163, 10);"
+                                class="fa-solid fa-code-branch"></i>
+                            SHARE THIS
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-search">
+            <div class="search-item">
+
+                <h1 class="search-item__heading">Search </h1>
+
+                <button class="search-item__btn">RESET ALL</button>
+            </div>
+            <div>
+
+                <select class="custom-select">
+                    <option value="0">Select Brands:</option>
+                    <option value="1">Audi</option>
+                    <option value="2">BMW</option>
+                    <option value="3">Ford</option>
+                    <option value="4">Honda</option>
+                </select>
+
+            </div> <br>
+            <div>
+                <form action="">
+                    <select class="custom-select">
+                        <option value="0">Select Range Of Cars:</option>
+                        <option value="1">Sedan</option>
+                        <option value="2">SUV</option>
+                        <option value="3">Hatchback</option>
+                        <option value="4">Jeep</option>
+                    </select>
+                </form>
+            </div> <br>
+            <div>
+                <form action="">
+                    <select class="custom-select">
+                        <option value="0">Select Price:</option>
+                        <option value="1">$1 - 10 000</option>
+                        <option value="2">$10 000 - 20 000</option>
+                        <option value="3">$20 000 - 30 000</option>
+                        <option value="4">$30 000 - 500 000</option>
+                        <option value="4">>$1 000 000</option>
+                    </select>
+                </form>
+            </div> <br>
+            <div>
+                <form action="">
+                    <select class="custom-select">
+                        <optgroup>
+                            <option value="0">Select Transmission:</option>
+                            <option value="1">Automatic</option>
+                            <option value="2">Manual</option>
+                            <option value="3">Semi-automatic</option>
+                        </optgroup>
+                    </select>
+                </form>
+            </div> <br>
+            <div class="slidecontainer">
+                <input type="range" min="1" max="1000000" value="1" class="slider" id="myRange">
+                <div style="display: flex;justify-content: space-between;margin-top: 20px;">
+                    <div class="mileage-bar">MILEAGE:</div>
+                    <div id="demo"></div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+
+
+
+<!-- <script>
+    var myApp = angular.module("myApp", [])
+    myApp.run(function ($rootScope, $http) {
+        $http.get("product_car.json").then(function (response) {
+            $rootScope.cars = response.data.cars;
+            console.log($rootScope.cars);
+        });
+    });
+
+    myApp.controller("productCtrl", function ($scope) {
+        console.log("test")
+    })
+
+</script>
+<script>
+    var x, i, j, l, ll, selElmnt, a, b, c;
+    /*look for any elements with the class "custom-select":*/
+    x = document.getElementsByClassName("custom-select");
+    l = x.length;
+    for (i = 0; i < l; i++) {
+        selElmnt = x[i].getElementsByTagName("select")[0];
+        ll = selElmnt.length;
+        /*for each element, create a new DIV that will act as the selected item:*/
+        a = document.createElement("DIV");
+        a.setAttribute("class", "select-selected");
+        a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+        x[i].appendChild(a);
+        /*for each element, create a new DIV that will contain the option list:*/
+        b = document.createElement("DIV");
+        b.setAttribute("class", "select-items select-hide");
+        for (j = 1; j < ll; j++) {
+            /*for each option in the original select element,
+            create a new DIV that will act as an option item:*/
+            c = document.createElement("DIV");
+            c.innerHTML = selElmnt.options[j].innerHTML;
+            c.addEventListener("click", function (e) {
+                /*when an item is clicked, update the original select box,
+                and the selected item:*/
+                var y, i, k, s, h, sl, yl;
+                s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+                sl = s.length;
+                h = this.parentNode.previousSibling;
+                for (i = 0; i < sl; i++) {
+                    if (s.options[i].innerHTML == this.innerHTML) {
+                        s.selectedIndex = i;
+                        h.innerHTML = this.innerHTML;
+                        y = this.parentNode.getElementsByClassName("same-as-selected");
+                        yl = y.length;
+                        for (k = 0; k < yl; k++) {
+                            y[k].removeAttribute("class");
+                        }
+                        this.setAttribute("class", "same-as-selected");
+                        break;
+                    }
+                }
+                h.click();
+            });
+            b.appendChild(c);
+        }
+        x[i].appendChild(b);
+        a.addEventListener("click", function (e) {
+            /*when the select box is clicked, close any other select boxes,
+            and open/close the current select box:*/
+            e.stopPropagation();
+            closeAllSelect(this);
+            this.nextSibling.classList.toggle("select-hide");
+            this.classList.toggle("select-arrow-active");
+        });
+    }
+    function closeAllSelect(elmnt) {
+        /*a function that will close all select boxes in the document,
+        except the current select box:*/
+        var x, y, i, xl, yl, arrNo = [];
+        x = document.getElementsByClassName("select-items");
+        y = document.getElementsByClassName("select-selected");
+        xl = x.length;
+        yl = y.length;
+        for (i = 0; i < yl; i++) {
+            if (elmnt == y[i]) {
+                arrNo.push(i)
+            } else {
+                y[i].classList.remove("select-arrow-active");
+            }
+        }
+        for (i = 0; i < xl; i++) {
+            if (arrNo.indexOf(i)) {
+                x[i].classList.add("select-hide");
+            }
+        }
+    }
+    /*if the user clicks anywhere outside the select box,
+    then close all select boxes:*/
+    document.addEventListener("click", closeAllSelect);
+</script>
+<script>
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("demo");
+    // Hiển thị giá trị thanh trượt mặc định
+    output.innerHTML = slider.value;
+    //Cập nhật giá trị thanh trượt hiện tại (mỗi khi bạn kéo tay cầm thanh trượt)
+    slider.oninput = function () {
+        output.innerHTML = this.value;
+    }
+</script>
+
+
+</html> -->

@@ -1,0 +1,417 @@
+<div ng-controller="homeCtrl">
+
+    <div class="banner-sortby">
+
+        <img src="image/backruond.jpg" class="header__content-img">
+
+
+
+        <div class="body__search">
+            <div class="container">
+                <div class="block-seach">
+                    <h3 class="body__search-title">
+                        <i class="body__search-title-iconcar  fa-solid fa-car"></i>
+                        <i class="body__search-title-iconsearch  fa-solid fa-magnifying-glass"></i>
+                        <span class="body__search-title-text">
+                            Search Inventory</span>
+                    </h3>
+
+                    <form class="form-search">
+
+
+
+                        <select class="form-search__text" name="" id="">
+                            <option value="">Choose Years</option>
+                            <option value=""><a href="">2019</a></option>
+                            <option value=""><a href="">2020</a></option>
+                            <option value=""><a href="">2021</a></option>
+                            <option value=""><a href="">2022</a></option>
+                            <option value=""><a href="">2023</a></option>
+
+                        </select>
+
+
+
+
+                        <select class="form-search__text" name="" id="">
+                            <option value="">Choose Make</option>
+                            <option value=""><a href="">Mercedes-Benz</a></option>
+                            <option value=""><a href="">Audi</a></option>
+                            <option value=""><a href="">BMW</a></option>
+                        </select>
+
+
+
+                        <select name="" id="" class="form-search__text">
+                            <option value="">Choose Model</option>
+                            <option value=""><a href="">Mercedes-Benz</a></option>
+                            <option value=""><a href="">Audi</a></option>
+                            <option value=""><a href="">BMW</a></option>
+                        </select>
+
+
+                        <div class="form-search__btn">
+
+                            <button class="form-search__btn-search">
+                                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                                SEARCH
+                            </button>
+
+                            <button class="form-search__btn-icon">
+                                <i class="fa-solid fa-rotate-left"></i>
+                            </button>
+                        </div>
+
+
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- KHỐI SORT BY -->
+
+
+</div>
+
+<!-- Phần của linh -->
+
+<div class="content-item-web">
+
+    <div class="title">
+        <h2 class="title__head">RECENT <span style="color: orange;">CARS</span> </h2>
+        <span class="title__thum">The latest models are updated, and are available to book or register for a test
+            drive.</span>
+    </div>
+
+
+    <!-- Product Information -->
+    <div class="sanpham ">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-6 col-lg-4" ng-repeat="item in cars | limitTo:6">
+                    <div class="information">
+                        <a href="#!/detail/{{item.id}}"> <img class="information__img" src="{{item.image}}" alt=""></a>
+                        <div class="wraper">
+
+<<<<<<< HEAD
+                            <div class="information__item">
+                                <div class="information__item-title">
+                                    <a class="information__item-title-link" href="" style="color: white;">
+                                        <h3>{{item.name}}</h3>
+                                    </a>
+                                </div>
+
+                                <div class="information__item-price">
+                                    <span>BY ONLINE</span>
+                                    <span class="price">{{item.price}}</span>
+=======
+        <div class="title">
+            <h2 class="title__head">RECENT <span style="color: orange;">CARS</span> </h2>
+            <span class="title__thum">The latest models are updated, and are available to book or register for a test drive.</span>
+        </div>
+
+
+        <!-- Product Information -->
+        <div class="sanpham">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="information">
+                            <a href="#!/detail/{{item.id}}"> <img class="information__img" src="image/Audi/Audi 4 A4.jpg" alt=""></a>
+
+
+                            <div class="wraper">
+
+                                <div class="information__item">
+                                    <div class="information__item-title">
+                                        <a href="#!/detail/{{item.id}}" style="color: white;">
+                                            <h3>Audi A4</h3>
+                                        </a>
+                                    </div>
+
+                                    <div class="information__item-price">
+                                        <span>BY ONLINE</span>
+                                        <span class="price">$78 000</span>
+                                    </div>
+                                </div>
+
+
+                                <ul class="information__specifi">
+                                    <li>
+                                        <span class="information__specifi-car">
+                                            <i class="fa-sharp fa-solid fa-road"></i>
+                                            2023
+                                        </span>
+                                    </li>
+
+                                    <li>
+                                        <span class="information__specifi-car">
+                                            <i class="information__specifi-year-icon fa-solid fa-gas-pump"></i>
+                                            0/100
+                                        </span>
+                                    </li>
+
+                                    <li>
+                                        <span class="information__specifi-car">
+                                            <i class="fa-sharp fa-solid fa-road"></i>
+                                            Automatic
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="information">
+                            <a href="#!/detail/{{item.id}}"> <img class="information__img" src="image/BMW/BMW_330i M Sport_SEDEN.jpg" alt=""></a>
+
+
+                            <div class="wraper">
+
+                                <div class="information__item">
+                                    <div class="information__item-title">
+                                        <a href="" style="color: white;">
+                                            <h3>BMW-330i M-sport</h3>
+                                        </a>
+                                    </div>
+
+                                    <div class="information__item-price">
+                                        <span>BY ONLINE</span>
+                                        <span class="price">$100 000</span>
+                                    </div>
+>>>>>>> 9f6879bd333dbedb3c33fef674b6ec93fe68b732
+                                </div>
+                            </div>
+
+
+                            <ul class="information__specifi">
+                                <li>
+                                    <span class="information__specifi-car">
+                                        <i class="fa-sharp fa-solid fa-road"></i>
+                                        {{item.year}}
+                                    </span>
+                                </li>
+
+                                <li>
+                                    <span class="information__specifi-car">
+                                        <i class="information__specifi-year-icon fa-solid fa-gas-pump"></i>
+                                        0/100
+                                    </span>
+                                </li>
+
+                                <li>
+                                    <span class="information__specifi-car">
+                                        <i class="fa-sharp fa-solid fa-road"></i>
+                                        Automatic
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="title">
+        <h3 class="title__head">SERVICE</h3>
+        <span class="title__thum">No one can understand your car better than us.</span>
+    </div>
+
+
+
+
+    <!--Services and Events -->
+
+    <div class="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="service__events">
+
+                        <a href=""><img class="service__events-img"
+                                src="https://imgcdnblog.carmudi.com.ph/carmudi-ph/wp-content/uploads/2018/11/21020421/18C0095_030-min.jpg?resize=500x333"
+                                alt=""></a>
+
+                        <div class="service__events-info">
+
+                            <h2 class="service__events-info-title"><a href="">Promotions</a> </h2>
+
+                            <p class="service__events-info-contens">Find out about the latest car deals form Carvan
+                            </p>
+
+
+                            <a class="service__events-info-more" href="">
+                                Find out more
+                                <i class="service__events-info-more-icon fa-sharp fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="service__events">
+
+                        <a href=""><img class="service__events-img" src="image/card-2-what-happening.webp" alt=""></a>
+
+                        <div class="service__events-info">
+
+                            <h2 class="service__events-info-title"><a href="">Service and Maintenance</a> </h2>
+
+                            <p class="service__events-info-contens">Carvan's service not only ensures your car is always
+                                perfect, helps you save costs, but also increases the resale value of the car.
+                            </p>
+
+
+                            <a class="service__events-info-more" href="">
+                                Find out more
+                                <i class="service__events-info-more-icon fa-sharp fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="service__events">
+
+                        <a href=""><img class="service__events-img" src="image/book-service-online.webp" alt=""></a>
+
+                        <div class="service__events-info">
+
+                            <h2 class="service__events-info-title"><a href="">Customer care</a> </h2>
+
+                            <p class="service__events-info-contens">Convenient and free service solution. .
+                            </p>
+
+
+                            <a class="service__events-info-more" href="">
+                                Find out more
+                                <i class="service__events-info-more-icon fa-sharp fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- khối nhu cầu cảu khách hàng  -->
+
+    <div class="demand-item"
+        style="background-image:url(https://images.pexels.com/photos/14266806/pexels-photo-14266806.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="find-car">
+                        <div class="find-car__icon">
+                            <i class="fa-solid fa-car"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+
+
+                        <h2 class="find-car__title">
+                            LOOKING FOR A CAR?</h2>
+
+
+                        <div class="find-car__text">
+                            <span>Our cars are delivered fully-registered with all requirements completed. We'll
+                                deliver
+                                your car wherever you are.</span>
+                        </div>
+
+                        <button class="btn-warning btn">INVENTORY</button>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="find-car orange">
+                        <div class="find-car__icon">
+                            <i class="fa-solid fa-car"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+
+
+                        <h2 class="find-car__title">
+                            LOOKING FOR A CAR?</h2>
+
+
+                        <div class="find-car__text">
+                            <span>Our cars are delivered fully-registered with all requirements completed. We'll
+                                deliver
+                                your car wherever you are.</span>
+                        </div>
+
+                        <button class="btn-light btn ">INVENTORY</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+    <!-- khối text khẩu hiệu -->
+    <div class="content-item">
+        <div class="container">
+            <div class="title">
+                <h2 class="title__head">WELCOME TO <span style="color: orange;">CARVAN</span> </h2>
+
+            </div>
+
+            <div class="content__item-header-text">
+                <div class="row justify-content-center">
+                    <div class="col-9">
+                        <p class="text-center">
+                            <span class="title__thum"> With specialists on hand to help with any part of the car
+                                shopping or vehicle ownership
+                                experience, Carvan provides financing, car service and a great selection of vehicles
+                                for
+                                luxury
+                                car shoppers in HCM, IL. Carvan is ultimate Car Dealer,
+                                <br>
+
+
+                                Automotive, Auto Dealer WordPress theme.
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- KHỐI FEEDBACK -->
+    <div class="feedback-item">
+        <div class="container">
+
+            <div class="block-feedback">
+                <span class="feedback-item__title">
+                    <h3>HAVE A QUESTIONS? FEEL FREE TO ASK...</h3>
+                </span>
+
+
+                <div class="feedback-item__thum">
+                    <i class="fa-solid fa-circle-phone"></i>
+                    <span class="feedback-item__thum--phone">
+                        <i class="feedback-item__thum--phone--icon fa-solid fa-phone"></i>
+                        +123-456-789
+                    </span>
+                    <span class="feedback-item__thum--box-feedback">
+                        <i class="fa-solid fa-envelope"></i>
+                        FEEDBACK
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>

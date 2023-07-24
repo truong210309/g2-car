@@ -1,0 +1,596 @@
+{
+    "cars": [
+        {
+            "id": 1,
+            "brand": "mercedes ",
+            "range": "sedan",
+            "name": "Mercedes-Benz GT coupe new",
+            "price": "$223 000",
+            "image": "./image/mercedes/Mercedes-Benz GT 2022 Coupe(2).jpg",
+            "year": 2022,
+            "mileage": 200,
+            "Fuel_type": "  Petro"
+        },
+        {
+            "id": 2,
+            "brand": "mercedes",
+            "range": "sedan",
+            "name": "Mercedes-Benz EQS ",
+            "price": "$210 000",
+            "image": "./image/mercedes/1.png",
+            "year": 2022,
+            "mileage": 0,
+            "Fuel_type": "Electronic"
+        },
+        {
+            "id": 3,
+            "brand": "mercedes",
+            "range": "sedan",
+            "name": "Mercedes-Benz AMG GLA",
+            "price": "$140 000",
+            "image": "./image/mercedes/2.png",
+            "year": 2019,
+            "mileage": 0,
+            "Fuel_type": "Plug in Hybrid"
+        },
+        {
+            "id": 4,
+            "brand": "mercedes",
+            "range": "suv",
+            "name": "Mercedes-Benz GLC200 ",
+            "price": "$72 000",
+            "image": "./image/mercedes/4.png",
+            "year": 2021,
+            "mileage": 11000,
+            "Fuel_type": " Petro"
+        },
+        {
+            "id": 5,
+            "brand": "mercedes",
+            "range": "hatchback",
+            "name": "Mercedes-AMG A-class ",
+            "price": "$200 000",
+            "image": "./image/mercedes/5.jpg",
+            "year": 2018,
+            "mileage": 0,
+            "Fuel_type": " Petro"
+        },
+        {
+            "id": 6,
+            "brand": "audi",
+            "range": "sedan",
+            "name": "Audi A4  ",
+            "price": "$78 000",
+            "image": "./image/Audi/audi-A4.jpg",
+            "year": 2023,
+            "mileage": 0,
+            "Fuel_type": " Petro"
+        },
+        {
+            "id":7,
+            "brand": "audi",
+            "range": "suv",
+            "name": "Audi e-tron quattro ",
+            "price": "$130 000",
+            "image": "./image/Audi/audi-e tron.jpg",
+            "year": 2019,
+            "mileage": 0,
+            "Fuel_type": " Electric"
+        },
+        {
+            "id":8,
+            "brand": "audi",
+            "range": "suv",
+            "name": "Audi Q5 2.0 AT  ",
+            "price": "$28 000",
+            "image": "./image/Audi/Audi Q5 DONE.jpg",
+            "year": 2013,
+            "mileage": 59000,
+            "Fuel_type": " Petro"
+        },
+        {
+            "id":9,
+            "brand": "audi",
+            "range": "sedan",
+            "name": "Audi S8 4.0 TFST Auattro ",
+            "price": "$360 000",
+            "image": "./image/Audi/audi-S8 4.0.jpg",
+            "year": 2020,
+            "mileage": 20000,
+            "Fuel_type": " Electric"
+        },
+        {
+            "id":10,
+            "brand": "bmw",
+            "range": "suv",
+            "name": "BMW-X7 ",
+            "price": "$258 000",
+            "image": "./image/BMW/BMW-X7 DONE.jpg",
+            "year": 2014,
+            "mileage": 0,
+            "Fuel_type": " Petro"
+        },
+        {
+            "id":11,
+            "brand": "bmw",
+            "range": "suv",
+            "name": "BMW-X5 ",
+            "price": "$164 000",
+            "image": "./image/BMW/BMW_X5_SUV3 DONE.jpg",
+            "year": 2014,
+            "mileage": 0,
+            "Fuel_type": " Electric"
+        },
+        {
+            "id":12,
+            "brand": "bmw",
+            "range": "sedan",
+            "name": "BMW-735i-Pure Excellence",
+            "price": "$181 000",
+            "image": "./image/BMW/BMW_735i Pure Excellence_SEDEN DONE (2).jpg",
+            "year": 2023,
+            "mileage": 0,
+            "Fuel_type": " Plug in Hybrid"
+        },
+        {
+            "id":13,
+            "brand": "bmw",
+            "range": "sedan",
+            "name": "BMW-520i ",
+            "price": "$98 000",
+            "image": "./image/BMW/BMW_520i_seden_Cũ DONE (2).jpg",
+            "year": 2014,
+            "mileage": 8000,
+            "Fuel_type": " Petro"
+        },
+        {
+            "id":14,
+            "brand": "bmw",
+            "range": "sedan",
+            "name": "BMW-330i M-sport ",
+            "price": "$100 000",
+            "image": "./image/BMW/BMW_330i M Sport_SEDEN DONE.jpg",
+            "year": 2019,
+            "mileage": 0,
+            "Fuel_type": " Petrol"
+        },
+        {
+            "id":15,
+            "brand": "bmw",
+            "range": "sedan",
+            "name": "BMW-Z4 OLD",
+            "price": "$84 000",
+            "image": "./image/BMW/BMW_Z4_Cũ1 DONE.jpg",
+            "year": 2009,
+            "mileage": 28000,
+            "Fuel_type": " Petrol"
+        },
+        {
+            "id": 16,
+            "brand": "jeep",
+            "range": "jeep",
+            "name": "Jeep-Wrangler",
+            "price": "$161 000",
+            "image": "./image/JEEP/jeep1_2 DONE (2).jpg",
+            "year": 2023,
+            "mileage": 0,
+            "Fuel_type": " Petrol"
+        },
+        {
+            "id": 17,
+            "brand": "jeep",
+            "range": "jeep",
+            "name": "Jeep-Gladistor",
+            "price": "$128 000",
+            "image": "./image/JEEP/jeep2_2 DONE (2).jpg",
+            "year": 2014,
+            "mileage": 0,
+            "Fuel_type": " Petrol"
+        }
+    ],
+    "detail": [
+        {
+            "image": {
+                "img-1": "./image/mercedes/mercedes6-GT-Coupe.jpg",
+                "img-2": "./image/mercedes/mercedes2-GT-Coupe.jpg",
+                "img-3": "./image/mercedes/mercedes1-GT-Coupe.jpg",
+                "img-4": "./image/mercedes/mercedes5-GT-Coupe.jpg"
+            },
+            "vehicle_parameters": " Overview <br> - Relentless impressions The Mercedes-AMG GT is a powerful Gran Turismo with a twin-turbocharged AMG 4.0L V8 engine. This is evident through the AMG GT C and AMG GT R duo, helping to elevate the high-performance driving experience to a new level. <br>  - Design <br> The power of speed in the purest appearance. Mercedes-AMG GT: dynamic appearance, sporty cockpit. <br> Efficiency <br> - Impressive performance from track to street The Mercedes-AMG GT brings the powerful driving feel of the V8 engine to everyday trips in an incredible way.<br> - Speed and safety. Two but one.<br> In addition to outstanding performance, the Mercedes-AMG GT takes your safety into mind. With a range of safety and assistance systems on board, not only will you arrive faster, but you'll also have more peace of mind and relaxation.",
+            "technical": {
+                "Number_of_seats (seats)": 2,
+                "Displacement_(cc)": 3982,
+                "Maximum_power_(Hp/Rpm)": "585/6250",
+                "Maximum_torque_(Nm/Rpm)": "700/2100 - 5500",
+                "Gearbox": "AMG Speedshift 7G-DCT",
+                "Maximum_speed_(Km/h)": "12.5 : 1",
+                "COMPRESSION_RATIO": " 318",
+                "Combined_fuel_consumption": "11.74 (litres/100km)",
+                "AMG_Speedshift_7G-DCT": "3.6s",
+                "TYPE": "Automatic",
+                "DRC_overall_dimensions (mm)": "4564x 2005x 1280"
+            },
+            "FEATURES_%_OPTION": "10-speaker premium Burmester sound systemwith 640W of power. Modern entertainment system Comand Online. The touch screen is 10.25 inches wide. Digital instrument panel with 12.3-inch screen. Connect to the Apple Carplay and Android Auto apps. <br> Consequat massa <br> Pellentesque lacus urna, feugiat non consectetur nec. Aliquam sem neque, efficitur atero lectus vitae. Pellentesque erat libero, eleifend sit amet felis ido. Maecenas eget consectetur quam. Vestibulum ligula. Praesent lorem sapien, vestibulum eget aliquet et.",
+            "LOCATION": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.325316305318!2d106.66372207490795!3d10.786376989362969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed23c80767d%3A0x5a981a5efee9fd7d!2zNTkwIMSQLiBDw6FjaCBN4bqhbmcgVGjDoW5nIDgsIFBoxrDhu51uZyAxMSwgUXXhuq1uIDMsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1687754517839!5m2!1svi!2s"
+        },
+        {
+            "image": {
+                "img-1": "./image/mercedes/mercedes5 EQS.jpg",
+                "img-2": "./image/mercedes/mercedes6 EQS.jpg",
+                "img-3": "./image/mercedes/mercedes4 EQS.jpg",
+                "img-4": "./image/mercedes/mercedes3 EQS.jpg"
+            },
+            "vehicle_parameters": " Overview <br> - Exterior and interior design highlights <br> The unique design attracts all eyes: <br>Grille with Mercedes-Benz three-pointed star motif  <br> Rear cabin with premium business class amenities  <br>- Design  <br>  Pure electric design: the hallmark of a new era  <br> Technology  <br> - The look of the new future.  <br>  From A to B, or wherever you want: the EQS 450+ and EQS 580 have ranges of up to 783 km and 692 km respectively [1]. You can charge quickly thanks to a charging system that allows the battery to charge quickly with a capacity of 200kW [2].  <br>  - MBUX is more intuitive and lively after each journey.  <br> Màn hình Head-up Display MBUX multimedia system  <br> ",
+            "technical": {
+                "Number_of-seats_(seats)": 245,
+                "Displacement_(cc)": 565,
+                "Maximum_power_(Hp/Rpm)": "210",
+                "Maximum_torque_(Nm/Rpm)": "156 – 198",
+                "Gearbox": "11.25 hours",
+                "Maximum_speed_(Km/h)": "200 kW",
+                "COMPRESSION_RATIO": "11.74 (litres/100km)",
+                "Combined_fuel_consumption": "6.2 (sec)",
+                "AMG_Speedshift_7G-DCT": "31 min",
+                "TYPE": "Lithium-ion, 400V, 108.4 kWh"
+            },
+            "FEATURES_%_OPTION": "- Salient features <br> 1. Automatic interior underlights  <br> 2. Adjust the rearview mirror  <br>3. Fingerprint Access  <br> 4. Get individual commands for each passenger  <br>  5. Hyperscreen  <br> 6. Automatic doors  <br> 7. HEPA filters reduce air pollution  <br> 8. Power Nap rest support <br> Consequat massa <br> Pellentesque lacus urna, feugiat non consectetur nec. Aliquam sem neque, efficitur atero lectus vitae. Pellentesque erat libero, eleifend sit amet felis ido. Maecenas eget consectetur quam. Vestibulum ligula. Praesent lorem sapien, vestibulum eget aliquet et.",
+            "LOCATION": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.325316305318!2d106.66372207490795!3d10.786376989362969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed23c80767d%3A0x5a981a5efee9fd7d!2zNTkwIMSQLiBDw6FjaCBN4bqhbmcgVGjDoW5nIDgsIFBoxrDhu51uZyAxMSwgUXXhuq1uIDMsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1687754517839!5m2!1svi!2s"
+        },
+        {
+            "image": {
+                "img-1": "./image/mercedes/mercedes4 GLA.jpg",
+                "img-2": "./image/mercedes/mercedes6 GLA.jpg",
+                "img-3": "./image/mercedes/mercedes2 GLA.jpg",
+                "img-4": "./image/mercedes/mercedes3 GLA.jpg"
+            },
+            "vehicle_parameters": " Overview <br>  - Mercedes-AMG GLA 45 S 4MATIC+: combined fuel consumption: 9.4 l/100 km, CO emissions2 combined: 215 g/km[1] <br>  -Open up experiences like never before. Continue to enjoy freedom on endless roads. The new Mercedes-AMG GLA 45 S 4MATIC+ will explore with you wherever possible. Liberal. Elegant. Sport. Mercedes-AMG's DNA is unmistakable. <br> Technology <br> -Mercedes-AMG GLA 45 S 4MATIC+: combined fuel consumption: 9.4 l/100 km, CO emissions2 combined: 215 g/km[1] <br> Authoritative sound. Luxurious style. Powerful in every detail. The entry of the Mercedes-AMG GLA into the world of AMG Driving Performance creates its own charm. The powerful appearance is a clear statement of dynamic sportiness – the characteristic AND of AMG cars. <br> 1. Characteristic AMG-style grille <br> 2. AMG rear fenders and AMG spoiler edges <br> 3. AMG light-alloy wheels with multi-spoke design <br> 4. AMG sporty front bumper with black spoilers <br> 5. AMG exhaust system <br> 6. AMG high-performance braking system with striking red-painted brake calipers <br> Interior design <br> - Bring immersive sports experiences to every trip. <br> ",
+            "technical": {
+                "Number_of_seats (seats)": "4-cylinder gasoline",
+                "Displacement (cc)": 3982,
+                "Maximum_power_(Hp/Rpm)": "585/6250",
+                "Maximum torque (Nm/Rpm)": "700/2100 - 5500",
+                "Gearbox": "AMG Speedshift 7G-DCT",
+                "Maximum_speed_(Km/h)": "12.5 : 1",
+                "COMPRESSION_RATIO": " 318",
+                "Combined_fuel_consumption": "11.74 (litres/100km)",
+                "AMG_Speedshift_7G-DCT": "3.6s",
+                "TYPE": "Automatic",
+                "DRC_overall_dimensions (mm)": "4564x 2005x 1280"
+            },
+            "FEATURES_%_OPTION": "10-speaker premium Burmester sound systemwith 640W of power. Modern entertainment system Comand Online. The touch screen is 10.25 inches wide. Digital instrument panel with 12.3-inch screen. Connect to the Apple Carplay and Android Auto apps. <br> Consequat massa <br> Pellentesque lacus urna, feugiat non consectetur nec. Aliquam sem neque, efficitur atero lectus vitae. Pellentesque erat libero, eleifend sit amet felis ido. Maecenas eget consectetur quam. Vestibulum ligula. Praesent lorem sapien, vestibulum eget aliquet et.",
+            "LOCATION": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.325316305318!2d106.66372207490795!3d10.786376989362969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed23c80767d%3A0x5a981a5efee9fd7d!2zNTkwIMSQLiBDw6FjaCBN4bqhbmcgVGjDoW5nIDgsIFBoxrDhu51uZyAxMSwgUXXhuq1uIDMsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1687754517839!5m2!1svi!2s"
+        },
+        {
+            "image": {
+                "img-1": "./image/mercedes/mercedes4 GLC 200.jpg",
+                "img-2": "./image/mercedes/mercedes6 GLC 200.jpg",
+                "img-3": "./image/mercedes/mercedes5 GLC 200.jpg",
+                "img-4": "./image/mercedes/mercedes3 GLC 200.jpg"
+            },
+            "vehicle_parameters": "Mercedes-Benz GLC is known as the sales king of luxury cars in Vietnam market. Since its launch until now, this car has always had an impressive number of products sold. Accordingly, if the predecessor Mercedes-Benz GLK took 6 years to reach sales of about 2,000 units, with Mercedes-Benz GLC, this car only took more than 2 years (since being introduced to Vietnam market in 2016) has more than 6,000 vehicles delivered to customers. The company's latest statistics in 2019 show that there are now more than 9,000 products of this model rolling in Vietnam. <br> After introducing the Mercedes-Benz GLC 300 4MATIC (CBU) version earlier this year, Mercedes-Benz Vietnam introduces 2 versions: Mercedes-Benz GLC 200 and Mercedes-Benz GLC 200 4MATIC. Unlike the Mercedes-Benz GLC 300 4MATIC, which is a fully imported model, the duo is assembled directly domestically. Especially, if you are a lover of strong off-road feeling, this upgraded Mercedes-Benz GLC 200 4MATIC is a suggestion not to be missed.",
+            "technical": {
+                "Number_of_seats (seats)": 2,
+                "Displacement (cc)": 3982,
+                "Maximum_power (Hp/Rpm)": "585/6250",
+                "Maximum_torque (Nm/Rpm)": "700/2100 - 5500",
+                "Gearbox": "AMG Speedshift 7G-DCT",
+                "Maximum_speed (Km/h)": "12.5 : 1",
+                "COMPRESSION_RATIO": " 318",
+                "Combined_fuel_consumption": "11.74 (litres/100km)",
+                "AMG_Speedshift_7G-DCT": "3.6s",
+                "TYPE": "Automatic",
+                "DRC_overall_dimensions (mm)": "4564x 2005x 1280"
+            },
+            "FEATURES_%_PTION": "10-speaker premium Burmester sound systemwith 640W of power. Modern entertainment system Comand Online. The touch screen is 10.25 inches wide. Digital instrument panel with 12.3-inch screen. Connect to the Apple Carplay and Android Auto apps. <br> Consequat massa <br> Pellentesque lacus urna, feugiat non consectetur nec. Aliquam sem neque, efficitur atero lectus vitae. Pellentesque erat libero, eleifend sit amet felis ido. Maecenas eget consectetur quam. Vestibulum ligula. Praesent lorem sapien, vestibulum eget aliquet et.",
+            "LOCATION": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.325316305318!2d106.66372207490795!3d10.786376989362969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed23c80767d%3A0x5a981a5efee9fd7d!2zNTkwIMSQLiBDw6FjaCBN4bqhbmcgVGjDoW5nIDgsIFBoxrDhu51uZyAxMSwgUXXhuq1uIDMsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1687754517839!5m2!1svi!2s"
+        },
+        {
+            "image": {
+                "img-1": "./image/mercedes/Mercedes 6-AMG A-Class Hatchback.jpg",
+                "img-2": "./image/mercedes/Mercedes 5-AMG A-Class Hatchback.jpg",
+                "img-3": "./image/mercedes/Mercedes 3-AMG A-Class Hatchback.jpg",
+                "img-4": "./image/mercedes/Mercedes 4-AMG A-Class Hatchback.jpg"
+            },
+            "vehicle_parameters": " Overview <br>- Mercedes-AMG GLA 45 S 4MATIC+: combined fuel consumption: 9.4 l/100 km, CO emissions2 combined: 215 g/km[1]<br>-Open up experiences like never before. Continue to enjoy freedom on endless roads. The new Mercedes-AMG GLA 45 S 4MATIC+ will explore with you wherever possible. Liberal. Elegant. Sport. Mercedes-AMG's DNA is unmistakable.  <br>  Technology  <br>  -Mercedes-AMG GLA 45 S 4MATIC+: combined fuel consumption: 9.4 l/100 km, CO emissions2 combined: 215 g/km[1]<br>  Authoritative sound. Luxurious style. Powerful in every detail. The entry of the  <br> Mercedes-AMG GLA into the world of AMG Driving Performance creates its own charm. The powerful appearance is a clear statement of dynamic sportiness – the characteristic AND of AMG cars.  <br>  1. Characteristic AMG-style grille  <br> 2. AMG rear fenders and AMG spoiler edges  <br> 3. AMG light-alloy wheels with multi-spoke design  <br> 4. AMG sporty front bumper with black spoilers  <br> 5. AMG exhaust system  <br>6. AMG high-performance braking system with striking red-painted brake calipers  <br> Interior design  <br>- Bring immersive sports experiences to every trip.  <br>  ",
+            "technical": {
+                "Overall_dimensions_(LxWxH)": "4299 x 1780 x 1433 mm, 4367 x 1780 x 1417 mm",
+                "Ground_clearance": "updating",
+                "Engine_type": "gasoline 1.6L I4, gasoline 2.0L I4",
+                "Power": "156-381 hp",
+                "Maximum_torque": "250-475 Nm",
+                "Transmission": "7G-DCT dual-clutch 7-speed automatic, AMG Speedshift DCT 7-speed sports automatic",
+                "Power_steering": " Electric/Direct-Steer/AMG Sport",
+                "Infotainment_system": "CD player, 7-8 inch TFT color display, radio tuner, Internet connection, Bluetooth, card reader for GPS global navigation and satellite positioning system, multimedia connector, Harman Kardon Logic 7 surround sound with 12 speakers for 450 watts.",
+                "Air_conditioning_system": "Thermotronic multi-zone automatic climate control",
+                "Security": "anti-theft engine encryption",
+                "Tire_size": "updating"
+            },
+            "FEATURES_%_OPTION": "Anti-lock braking Emergency braking force assist Anti-slip when accelerating Electronic body stabilization PARKTRONIC Active Parking Assist System ADAPTIVE braking system with stop assist (HOLD) Hill start assist Electric control handbrake with intelligent brake release function<br> Consequat massa <br> Pellentesque lacus urna, feugiat non consectetur nec. Aliquam sem neque, efficitur atero lectus vitae. Pellentesque erat libero, eleifend sit amet felis ido. Maecenas eget consectetur quam. Vestibulum ligula. Praesent lorem sapien, vestibulum eget aliquet et.",
+            "LOCATION": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.325316305318!2d106.66372207490795!3d10.786376989362969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed23c80767d%3A0x5a981a5efee9fd7d!2zNTkwIMSQLiBDw6FjaCBN4bqhbmcgVGjDoW5nIDgsIFBoxrDhu51uZyAxMSwgUXXhuq1uIDMsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1687754517839!5m2!1svi!2s"
+        },
+        {
+            "image": {
+                "img-1": "./image/Audi/Audi 1 A4.jpg",
+                "img-2": "./image/Audi/Audi 2 A4.jpg",
+                "img-3": "./image/Audi/Audi 3 A4.jpg",
+                "img-4": "./image/Audi/Audi 4 A4.jpg"
+            },
+            "vehicle_parameters": " Audi A4 is a car introduced in 2015, belongs to the small sedan segment and is produced by Audi automaker. In the Vietnamese automobile market, Audi A4 is distributed in the form of fully imported cars. <br> Including those two versions, A4 40 TFSI priced at VND 1.8 billion and A4 45 TFSI version with Sport Line equipment package can be up to VND 2.2 billion. Each version of the Audi A4 has an upgrade in appearance but generally retains its own quality. <br> So Audi A4 receives a lot of praise from leading experts in the automotive industry because it possesses an eye-catching, luxurious design, dynamic sporting orientation and equally sophisticated. Because of this, many customers have hesitated when making decisions. <br>  Currently, Audi A4 2021 has been launched with a lot of improvements in design, technology, features,... considered a worthy competitor to the Mercedes Benz C-Class and BMW. The car color inherits from previous versions, there are up to 14 beautiful diverse tones to catch up with the trend of standard fashion colors for you to choose from.",
+            "technical": {
+                "Engine_type": "4-cylinder turbocharging, direct injection (International Engine of the Year 2019) and 12V mild hybrid MHEV system",
+                "Gearbox": "7-level S tronic",
+                "Displacement_(cc)": "1.984",
+                "Maximum_power_(hp/rpm)": "245 / 5.000 – 6.500",
+                "Maximum_torque_(Nm/rpm)": "370 / 1.600-4.300",
+                "Maximum_speed (km/h)": "250",
+                "Fuel_tank_capacity_(L)": "58",
+                "Alloy_rim_wheels": "17 10-spoke design, 7.5 J x 17",
+                "Tire_size": "225/50 R17"
+            },
+            "FEATURES_%_OPTION": "Tire pressure warning Cruise Control with speed limiter Electronic Stability Control (ESC) Electric power assist handbrake Brake Energy Regeneration System Anti-towing warning Parking assist with front and rear sensors and rear camera <br> Consequat massa <br> Pellentesque lacus urna, feugiat non consectetur nec. Aliquam sem neque, efficitur atero lectus vitae. Pellentesque erat libero, eleifend sit amet felis ido. Maecenas eget consectetur quam. Vestibulum ligula. Praesent lorem sapien, vestibulum eget aliquet et.",
+            "LOCATION": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.325316305318!2d106.66372207490795!3d10.786376989362969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed23c80767d%3A0x5a981a5efee9fd7d!2zNTkwIMSQLiBDw6FjaCBN4bqhbmcgVGjDoW5nIDgsIFBoxrDhu51uZyAxMSwgUXXhuq1uIDMsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1687754517839!5m2!1svi!2s"
+        },
+        {
+            "image": {
+                "img-1": "./image/Audi/Audi E tron 1.jpg",
+                "img-2": "./image/Audi/Audi E tron 3.jpg",
+                "img-3": "./image/Audi/Audi E tron 4.jpg",
+                "img-4": "./image/Audi/Audi E tron 6.jpg"
+            },
+            "vehicle_parameters": " About the level of comfort: Audi E-Tron owns climate control and control system, LED interior and exterior sunshine, clever headlights, identification system block & 3-speaker Bang & Olufsen 16D sound system. The heated and cooled front seats adjust in 12 directions, the trendy aluminum alloy entrance sill and sunroof provide a cool feeling for the occupants. <br> About safety: The Audi E-Tron's camera system from the top helps to observe blind spots and notice rear collisions About the driving feel: The Audi E-Tron moves very energetically with a large battery. At the same time, the air suspension allows for a variety of driving heights: It can be 25mm lower or 36mm higher, which makes the Audi E-Tron completely safe on arduous, muddy roads",
+            "technical": {
+                "Number_of_seats (seats)": 5,
+                "Classification": "Small SUV",
+                "Dimensions_(LxWxH)": "4,091 x 1,935 x 1,616 mm",
+                "Weight": "2,370 kg",
+                "Ground_clearance": "146 - 172 – 248 mm",
+                "Amphibious_capability": "50 cm",
+                "Continuous_mileage_traveled_after_a_full_charge": " 336 km – 417 km (depending on version)",
+                "Wheels": "5 dual spokes, 20 inches",
+                "Tire_size": "255/50R20",
+                "Proximity/Beam Lights": "LED Matrix",
+                "LED_Daytime_Lights": "Have"
+            },
+            "FEATURES_%_OPTION": "1. Equipped with modern quattro system <br> 2. Advanced battery system integration <br> 3. Use a drive system consisting of two ele ctric motors <br> 4. Superior lighting system <br>5. High-tech suspension and steering <br>6. Intelligent connection system <br>7. High-end sound system <br >8. Electric 4-wheel steering <br> 9. Pre-sense technology <br> Consequat massa <br> Pellentesque lacus urna, feugiat non consectetur nec. Aliquam sem neque, efficitur atero lectus vitae. Pellentesque erat libero, eleifend sit amet felis ido. Maecenas eget consectetur quam. Vestibulum ligula. Praesent lorem sapien, vestibulum eget aliquet et.",
+            "LOCATION": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.325316305318!2d106.66372207490795!3d10.786376989362969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed23c80767d%3A0x5a981a5efee9fd7d!2zNTkwIMSQLiBDw6FjaCBN4bqhbmcgVGjDoW5nIDgsIFBoxrDhu51uZyAxMSwgUXXhuq1uIDMsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1687754517839!5m2!1svi!2s"
+        },
+        {
+            "image": {
+                "img-1": "./image/Audi/Audi 4 Q5.jpg",
+                "img-2": "./image/Audi/Audi 1 Q5.jpg",
+                "img-3": "./image/Audi/Audi 2 Q5.jpg",
+                "img-4": "./image/Audi/Audi 5 Q5.jpg"
+            },
+            "vehicle_parameters": " The owner of the family e weighs selling Audi Q5, the car travels very little, less than 10 thousand kilometers, k crashes or floods, the original calf soap machine, who needs to buy new uses contact ",
+            "technical": {
+                "Origin:": "Import",
+                "Condition": "Used vehicles",
+                "Vehicle_Model:": "SUVs",
+                "Mileage_traveled:": "78,000 km",
+                "Exterior_Color:": "Brown",
+                "Interior_color:": "Cream",
+                "Number_of_seats:": "5 seats",
+                "Engine:": "Gasoline 2.0 L",
+                "Transmission:": "Automatic number",
+                "Drive:": "AWD - 4 wheels full-time",
+                "Fuel_consumption:": "L/100Km"
+            },
+            "FEATURES_%_OPTION": "Luxurious design Equipped with a modern, classy interior Outstanding powerful engine Quattro drive system for excellent driving experience Air suspension helps the car operate smoothly Fuel economy is highly appreciated Safety system is considered the best in the segment Vivid sound speaker system <br> Consequat massa <br> Pellentesque lacus urna, feugiat non consectetur nec. Aliquam sem neque, efficitur atero lectus vitae. Pellentesque erat libero, eleifend sit amet felis ido. Maecenas eget consectetur quam. Vestibulum ligula. Praesent lorem sapien, vestibulum eget aliquet et.",
+            "LOCATION": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.325316305318!2d106.66372207490795!3d10.786376989362969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed23c80767d%3A0x5a981a5efee9fd7d!2zNTkwIMSQLiBDw6FjaCBN4bqhbmcgVGjDoW5nIDgsIFBoxrDhu51uZyAxMSwgUXXhuq1uIDMsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1687754517839!5m2!1svi!2s"
+        },
+        {
+            "image": {
+                "img-1": "./image/Audi/Audi 4 S8 4.0.jpg",
+                "img-2": "./image/Audi/Audi 5 S8 4.0.jpg",
+                "img-3": "./image/Audi/Audi 6 S8 4.0.jpg",
+                "img-4": "./image/Audi/Audi 3 S8 4.0.jpg"
+            },
+            "vehicle_parameters": " Audi S8 sx2020 <br>Individual Sea Odo Prefecture : 2 lakh Km  <br> The most modern equipment of Audi is available on the S8:  <br>  ✓ White brown interior  <br>  ✓ Sunroof  <br> ✓ 17 Bang speakers & oulfsen  <br> ✓ Extremely mesmerizing interior lights... Outstanding safety<br>technologies:  <br> ✓Active noise cancellation  <br > ✓ Cruise control  <br>  ✓ Rear-wheel steering  <br> ✓ Intelligent adaptive suspension  <br>  ✓ Collision assist, the sharpest 360 Cam in the industry...  <br>  The car does not crash, does not flood, sells the car with warranty, supports the purchase of the car in installments, includes testing the company,.... You need to contact us for more information!",
+            "technical": {
+                "Origin:": 2,
+                "Condition": 3982,
+                "Vehicle_Model:": "585/6250",
+                "Mileage_traveled:": "700/2100 - 5500",
+                "Exterior_Color:": "AMG Speedshift 7G-DCT",
+                "Interior_color:": "12.5 : 1",
+                "Number_of_seats:": " 318",
+                "Engine": "11.74 (litres/100km)",
+                "Transmission:": "3.6s",
+                "Drive:": "Automatic",
+                "Fuel_consumption:": "4564x 2005x 1280"
+            },
+            "FEATURES_%_OPTION": "10-speaker premium Burmester sound systemwith 640W of power. Modern entertainment system Comand Online. The touch screen is 10.25 inches wide. Digital instrument panel with 12.3-inch screen. Connect to the Apple Carplay and Android Auto apps. <br> Consequat massa <br> Pellentesque lacus urna, feugiat non consectetur nec. Aliquam sem neque, efficitur atero lectus vitae. Pellentesque erat libero, eleifend sit amet felis ido. Maecenas eget consectetur quam. Vestibulum ligula. Praesent lorem sapien, vestibulum eget aliquet et.",
+            "LOCATION": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.325316305318!2d106.66372207490795!3d10.786376989362969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed23c80767d%3A0x5a981a5efee9fd7d!2zNTkwIMSQLiBDw6FjaCBN4bqhbmcgVGjDoW5nIDgsIFBoxrDhu51uZyAxMSwgUXXhuq1uIDMsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1687754517839!5m2!1svi!2s"
+        },
+        {
+            "image": {
+                "img-1": "./image/BMW/BMW_X7_SUV1.jpg",
+                "img-2": "./image/BMW/BMW_X7_SUV2.jpg",
+                "img-3": "./image/BMW/BMW_X7_SUV5.jpg",
+                "img-4": "./image/BMW/BMW_X7_SUV3.jpg"
+            },
+            "vehicle_parameters": "+The icon of luxury: the new BMW X7 is a combination of impressive styling and outstanding personality. Contrasting with the aggressive appearance, the BMW X7 gives the impression of lightness and flexibility thanks to its elegant design and sporty styling. At the same time, the spacious and comfortable interior allows the combination of all three elements of uniqueness, convenience and freedom – the result of this combination is comfortable space for all three rows of seats. Powerful function. Elegant style. <br> +A unique driving experience with state-of-the-art and cutting-edge technology. Connectivity and digital conveniences are a hallmark of the BMW X7. From the simple and easy opening of the car door with the smart key, to the Parking Assistant system, including the Reversing Assistant feature: a variety of other amenities are connected through the system. Operating the latest BMW iDrive 8.0, each ride will fully satisfy individual desires and provide maximum comfort.  <br> +Outstanding personality: the optional BMW Individual equipment option elevates the BMW X7 to a new level of unique styling. Impressive exterior color options create a luxurious highlight for the new BMW X7. Outstanding paint colors such as Sparkling Copper Gray Metallic, Alpine White Solid, Black Sphire Metallic or Blue Ridge Mountain Metallic create countless choices for owners to freely personalize their luxury car.",
+            "technical": {
+                "Number_of_seats (seats)": 6,
+                "Displacement (cc)": 2014,
+                "DRIVE_LAYOUT": 8,
+                "RMP": "381 HP",
+                "TORQUE": "5200-6250 rpm rpm",
+                "Maximum speed (Km/h)": "540 Nm @",
+                "COMPRESSION_RATIO": " Gasoline",
+                "TOP_RACK_SPEED": "250 km/h",
+                "0-100_km/h": "5.8 s",
+                "TYPE": "Automatic",
+                "DISPLACEMENT": "8 Speed"
+            },
+            "FEATURES % OPTION": "Feature & Options  <br>  +BMW says the first-generation X7 is BMW's largest-ever grille. Meanwhile, the BMW Laserlight headlights connecting the grille are designed quite thin for the maximum lighting distance increased to 600m. The front air cavity expands to the sides with a chrome border and the front bumper is shaped differently to emphasize the strong, aggressive car. <br>  +BMW X7 is equipped with BMW Laserlight headlights for a lighting range of up to 600 meters, more than double that of conventional LED headlights. This helps to ensure the safety of the driver when traveling at night. In addition, the headlights are also integrated with Adaptive technology, which helps to adjust the lighting angle when cornering, improving the driver's visibility. Specifically, the car uses electronic sensors to determine the speed of travel, the size of the turn to adjust the appropriate projection angle. In addition, smart Adaptive technology also limits the light flow to pedestrians and oncoming vehicles ahead, ensuring safety for oncoming road users without being dazzled. <br> Consequat massa <br> Pellentesque lacus urna, feugiat non consectetur nec. Aliquam sem neque, efficitur atero lectus vitae. Pellentesque erat libero, eleifend sit amet felis ido. Maecenas eget consectetur quam. Vestibulum ligula. Praesent lorem sapien, vestibulum eget aliquet et.",
+            "LOCATION": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.325316305318!2d106.66372207490795!3d10.786376989362969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed23c80767d%3A0x5a981a5efee9fd7d!2zNTkwIMSQLiBDw6FjaCBN4bqhbmcgVGjDoW5nIDgsIFBoxrDhu51uZyAxMSwgUXXhuq1uIDMsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1687754517839!5m2!1svi!2s"
+        },
+        {
+            "image": {
+                "img-1": "./image/BMW/BMW_X5_SUV1.jpg",
+                "img-2": "./image/BMW/BMW_X5_SUV2.jpg",
+                "img-3": "./image/BMW/BMW_X5_SUV4.jpg",
+                "img-4": "./image/BMW/BMW_X5_SUV5.jpg"
+            },
+            "vehicle_parameters": "+The icon of luxury: the new BMW X7 is a combination of impressive styling and outstanding personality. Contrasting with the aggressive appearance, the BMW X7 gives the impression of lightness and flexibility thanks to its elegant design and sporty styling. At the same time, the spacious and comfortable interior allows the combination of all three elements of uniqueness, convenience and freedom – the result of this combination is comfortable space for all three rows of seats. Powerful function. Elegant style. <br> +A unique driving experience with state-of-the-art and cutting-edge technology. Connectivity and digital conveniences are a hallmark of the BMW X7. From the simple and easy opening of the car door with the smart key, to the Parking Assistant system, including the Reversing Assistant feature: a variety of other amenities are connected through the system. Operating the latest BMW iDrive 8.0, each ride will fully satisfy individual desires and provide maximum comfort.  <br> +Outstanding personality: the optional BMW Individual equipment option elevates the BMW X7 to a new level of unique styling. Impressive exterior color options create a luxurious highlight for the new BMW X7. Outstanding paint colors such as Sparkling Copper Gray Metallic, Alpine White Solid, Black Sphire Metallic or Blue Ridge Mountain Metallic create countless choices for owners to freely personalize their luxury car.",
+            "technical": {
+                "Number_of_seats (seats)": 6,
+                "Displacement (cc)": 2014,
+                "DRIVE_LAYOUT": 8,
+                "RMP": "381 HP",
+                "TORQUE": "5200-6250 rpm rpm",
+                "Maximum speed (Km/h)": "540 Nm @",
+                "COMPRESSION_RATIO": " Gasoline",
+                "TOP_RACK_SPEED": "250 km/h",
+                "0-100_km/h": "5.8 s",
+                "TYPE": "Automatic",
+                "DISPLACEMENT": "8 Speed"
+            },
+            "FEATURES % OPTION": "Feature & Options  <br>  +BMW says the first-generation X7 is BMW's largest-ever grille. Meanwhile, the BMW Laserlight headlights connecting the grille are designed quite thin for the maximum lighting distance increased to 600m. The front air cavity expands to the sides with a chrome border and the front bumper is shaped differently to emphasize the strong, aggressive car. <br>  +BMW X7 is equipped with BMW Laserlight headlights for a lighting range of up to 600 meters, more than double that of conventional LED headlights. This helps to ensure the safety of the driver when traveling at night. In addition, the headlights are also integrated with Adaptive technology, which helps to adjust the lighting angle when cornering, improving the driver's visibility. Specifically, the car uses electronic sensors to determine the speed of travel, the size of the turn to adjust the appropriate projection angle. In addition, smart Adaptive technology also limits the light flow to pedestrians and oncoming vehicles ahead, ensuring safety for oncoming road users without being dazzled. <br> Consequat massa <br> Pellentesque lacus urna, feugiat non consectetur nec. Aliquam sem neque, efficitur atero lectus vitae. Pellentesque erat libero, eleifend sit amet felis ido. Maecenas eget consectetur quam. Vestibulum ligula. Praesent lorem sapien, vestibulum eget aliquet et.",
+            "LOCATION": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.325316305318!2d106.66372207490795!3d10.786376989362969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed23c80767d%3A0x5a981a5efee9fd7d!2zNTkwIMSQLiBDw6FjaCBN4bqhbmcgVGjDoW5nIDgsIFBoxrDhu51uZyAxMSwgUXXhuq1uIDMsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1687754517839!5m2!1svi!2s"
+        },
+        {
+            "image": {
+                "img-1": "./image/BMW/BMW_735i Pure Excellence_SEDEN (5).jpg",
+                "img-2": "./image/BMW/BMW_735i Pure Excellence_SEDEN (4).jpg",
+                "img-3": "./image/BMW/BMW_735i Pure Excellence_SEDEN (3).jpg",
+                "img-4": "./image/BMW/BMW_735i Pure Excellence_SEDEN (2).jpg"
+            },
+            "vehicle_parameters": "+ Pure luxury and multi-sensory entertainment come together in the New BMW 7 Series to create an absolute premium driving experience: <br> - Crystal headlights and BMW 'Iconic Glow' kidney-shaped reflective grille. <br>  - Luxurious interior space with My Modes options. <br> + The exterior of the new BMW 7 Series stands out with its<br>  luxurious, minimalist design language and more emphasis on the car's finishing quality. All the lamp details of the spotlights are made of high-quality Swarovski crystals arranged in an L-shape and use LED lighting technology. The new generation of BMW 7 Series has an optional exterior paint package including a metallic color package. With the addition of BMW Individual paint colors, the all-new BMW 7 Series becomes more attractive with a variety of color options. The body of the car is designed flat with the door handle now hidden at the door position to make the body more seamless and neat. Another highlight for the body is the floating ribs extending from the daytime running lights to the rear taillights, giving the 7 Series a longer and stronger body feel when viewed horizontally. <br> + The chassis technology of the all-new BMW 7 Series includes a series of innovations designed to help achieve a balance between dynamic driving performance and ride comfort. Improvements include an increase in body stiffness compared to its predecessor, plus larger wheels. Other improvements have also been made to both the standard two-axle air suspension and the Integrated Active Steering. <br> + All all-new BMW 7 Series versions launched in Vietnam have an in-line 6-cylinder engine combined with 48V Mild Hybrid technology. In the BMW 735i version, it produces 286 horsepower, 425 Nm of torque and can accelerate from 0 to 100 km / h in just 6.7 seconds while the BMW 740i version reaches a capacity of up to 381 horsepower. , torque of 540 Nm and only takes 5.4s to accelerate from 0 to 100 km / h. <br> +Possessing a distinctly unique personality, on the BMW 7 Series you can easily recognize luxury. Impressive light-alloy wheels with a new multi-spoke design and exterior paint in different colors help increase the personalization of this flagship sedan. First impressions become more interesting as soon as you step into the car, through the door sills with aluminum finishes with illuminated “BMW Individual” lettering, premium leather interior and lighting technology. Impressive Ambient Light interior for a true upmarket experience on the BMW 7 Series. ",
+            "technical": {
+                "Number of seats (seats)": 6,
+                "Displacement (cc)": 2023,
+                "DRIVE_LAYOUT": 6,
+                "HORESPOWER": "286 HP",
+                "@_RPM": "5000-6500",
+                "TORQUE": "540 Nm & 5.4s to 100km",
+                "COMPRESSION_RATIO": " Gasoline",
+                "TOP_TRACK_SPEED": "250km/h",
+                "0-100km": "6.7s",
+                "TYPE": "Automatic",
+                "DISPLACEMENT": "8 Speed"
+            },
+            "FEATURES % OPTION": " + Pure luxury and multi-sensory entertainment come together in the New BMW 7 Series to create an absolute premium driving experience: <br>  - Crystal headlights and BMW 'Iconic Glow' kidney-shaped reflective grille. <br> - Luxurious interior space with My Modes options. <br>   + The exterior of the new BMW 7 Series stands out with its  <br>luxurious, minimalist design language and more emphasis on the car's finishing quality. All the lamp details of the spotlights are made of high-quality Swarovski crystals arranged in an L-shape and use LED lighting technology. The new generation of BMW 7 Series has an optional exterior paint package including a metallic color package. With the addition of BMW Individual paint colors, the all-new BMW 7 Series becomes more attractive with a variety of color options. The body of the car is designed flat with the door handle now hidden at the door position to make the body more seamless and neat. Another highlight for the body is the floating ribs extending from the daytime running lights to the rear taillights, giving the 7 Series a longer and stronger body feel when viewed horizontally.<br>+ The chassis technology of the all-new BMW 7 Series includes a series of innovations designed to help achieve a balance between dynamic driving performance and ride comfort. Improvements include an increase in body stiffness compared to its predecessor, plus larger wheels. Other improvements have also been made to both the standard two-axle air suspension and the Integrated Active Steering. <br> + All all-new BMW 7 Series versions launched in Vietnam have an in-line 6-cylinder engine combined with 48V Mild Hybrid technology. In the BMW 735i version, it produces 286 horsepower, 425 Nm of torque and can accelerate from 0 to 100 km / h in just 6.7 seconds while the BMW 740i version reaches a capacity of up to 381 horsepower. , torque of 540 Nm and only takes 5.4s to accelerate from 0 to 100 km / h. <br>   +Possessing a distinctly unique personality, on the BMW 7 Series you can easily recognize luxury. Impressive light-alloy wheels with a new multi-spoke design and exterior paint in different colors help increase the personalization of this flagship sedan. First impressions become more interesting as soon as you step into the car, through the door sills with aluminum finishes with illuminated BMW Individual lettering, premium leather interior and lighting technology. Impressive Ambient Light interior for a true upmarket experience on the BMW 7 Series. ",
+            "LOCATION": "https: //www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.325316305318!2d106.66372207490795!3d10.786376989362969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed23c80767d%3A0x5a981a5efee9fd7d!2zNTkwIMSQLiBDw6FjaCBN4bqhbmcgVGjDoW5nIDgsIFBoxrDhu51uZyAxMSwgUXXhuq1uIDMsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1687754517839!5m2!1svi!2s"
+        },
+        {
+            "image": {
+                "img-1": "./image/BMW/BMW_520i_seden_Cũ.jpg",
+                "img-2": "./image/BMW/BMW_520i_seden_Cũ2.jpg",
+                "img-3": "./image/BMW/BMW_520i_seden_Cũ3.jpg",
+                "img-4": "./image/BMW/BMW_520i_seden_Cũ5.jpg"
+            },
+            "vehicle_parameters": " The BMW 5 Series Sedan exudes sportiness and confidence beyond the conventional, thanks to characteristic indicators such as a long wheelbase, extended bonnet and curvaceous roofline. Subtle veins provide an appealing contrast to streamlined, streamlined surfaces for a sophisticated, modern look. Specifically, the BMW kidney grille and the BMW Laserlight light cluster give the front a dynamic and unique look. The headlights are seamlessly connected to the kidney-shaped grille, which further emphasizes the car's width and creates elegance throughout all the way to the exhaust pipes at the rear. The result creates an overall image with a distinctive sporty style. <br> More power, better control. From the dedicated fuel-efficient 4-cylinder diesel engine to the high rpm and impressive torque characteristics of a 6-cylinder petrol engine. The BMW 5 Series sedan promotes strong sports performance on every journey. With perfectly fine-tuned steering and chassis technology, such as Adaptive suspension, Integral Active Steering or xDrive intelligent all-wheel drive, optimal traction and feel The biggest sublimation driving will be guaranteed.",
+            "technical": {
+                "NUMBER_OF_CYLINDERS": "4/4",
+                "DRIVE_LAYOUT": 8,
+                "Engine_power_in_kW_(hp)_at_1/min": "120-135 (163-184)/5,000-6,500",
+                "Compression_ratio: 1": "11.0",
+                "TORQUE": "290/1,350-4,250 - 1,350-3,800",
+                "COMPRESSION_RATIO": " Gasoline",
+                "TOP_TRACK_SPEED": "226-235 km/h",
+                "0-100_km/h": "8.6-7.8s",
+                "TYPE": "Automatic",
+                "DISPLACEMENT": "8 Speed"
+            },
+            "FEATURES % OPTION": "Feature & Options ",
+            "LOCATION": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.325316305318!2d106.66372207490795!3d10.786376989362969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed23c80767d%3A0x5a981a5efee9fd7d!2zNTkwIMSQLiBDw6FjaCBN4bqhbmcgVGjDoW5nIDgsIFBoxrDhu51uZyAxMSwgUXXhuq1uIDMsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1687754517839!5m2!1svi!2s"
+        },
+        {
+            "image": {
+                "img-1": "./image/BMW/BMW_330i M Sport_SEDEN (2).jpg",
+                "img-2": "./image/BMW/BMW_330i M Sport_SEDEN (4).jpg",
+                "img-3": "./image/BMW/BMW_330i M Sport_SEDEN (5).jpg",
+                "img-4": "./image/BMW/BMW_330i M Sport_SEDEN (6).jpg"
+            },
+            "vehicle_parameters": " +The new BMW 3 Series gives a striking appearance to a pure sports sedan. The car's clean design with subtle cuts, a redesigned grille and new air vents create a different surface when viewed from the front of the car. As the most beloved sedan from BMW, the new BMW 3 Series possesses many advanced technologies that work perfectly on the latest BMW OS 8.0 operating system. The car's solid chassis structure, powerful engine and undeniable sportsmanship will bring the excitement behind the wheel of The New 3. <br>  +The new BMW 3 Series offers you the perfect combination of sporty traction, optimal handling and high agility. With an ever more advanced and powerful engine, perfectly fine-tuned suspension components and optimal weight distribution, the new BMW 3 Series deserves to be the most impressive sports sedan available today.",
+            "technical": {
+                "Length_x_Width_x_Height": "4713 x 1827 x 1440 mm",
+                "DRIVE_LAYOUT": 8,
+                "HORESPOWER": "258 HP",
+                "@ RPM": "5000-6500 rpm",
+                "TORQUE": "400 Nm @",
+                "COMPRESSION RATIO": " Gasoline",
+                "TOP_TRACK_SPEED": "250 km/h",
+                "0-100_km/h": "5.9s",
+                "TYPE": "Automatic",
+                "DISPLACEMENT": "8 Speed"
+            },
+            "FEATURES % OPTION": "  Feature & Options <br>  BMW 3 Series 330i Sport is the top model in the 3 Series lineup and the price of 3 Series top model is Rs. 46.86 Lakh. It gives a mileage of 16.1 kmpl. BMW 3 Series 330i Sport is available in Automatic (TC) transmission and offered in 3 colours: Mediterranean Blue Metallic, Black Sapphire Metallic and Alpine White. ",
+            "LOCATION": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.325316305318!2d106.66372207490795!3d10.786376989362969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed23c80767d%3A0x5a981a5efee9fd7d!2zNTkwIMSQLiBDw6FjaCBN4bqhbmcgVGjDoW5nIDgsIFBoxrDhu51uZyAxMSwgUXXhuq1uIDMsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1687754517839!5m2!1svi!2s"
+        },
+        {
+            "image": {
+                "img-1": "./image/BMW/BMW_Z4_Cũ1.jpg ",
+                "img-2": "./image/BMW/BMW_Z4_Cũ2.jpg ",
+                "img-3": "./image/BMW/BMW_Z4_Cũ3.jpg ",
+                "img-4": "./image/BMW/BMW_Z4_Cũ5.jpg "
+            },
+            "vehicle_parameters": "+As soon as the hood opens, it's time to enjoy unlimited driving in the all-new BMW Z4. A roadster couldn't be more perfect: open, sporty and unique. With powerful handling and cutting-edge design, the car was created with one purpose in mind: freedom on the road. <br> +Inside and out, the design of the BMW Z4 Roadster exudes a strong sense of sport and a personal aesthetic. Powerful features for a dynamic appearance include the BMW kidney grille with a mesh design, an elegant roofline and impressive details of the BMW Individual Shadow Line. The interior offers a seamless overall design with optional equipment such as M Sport seats and ambient lighting. <br>  +Featured by strong sportiness and agility. The BMW Z4 Roadster shows a strong sporty personality on the go. Thanks to state-of-the-art technologies, innovative engine blocks and powertrain components, the car achieves impressive performance values ​​- creating a whole new level of driving pleasure.",
+            "technical": {
+                "NUMBER_OF_CYLINDERS": "4/4",
+                "DRIVE_LAYOUT": "585/6250",
+                "Horsepower": "700/2100 - 5500",
+                "Engine_power_in_kW_(hp)_at_1/min": "AMG Speedshift 7G-DCT",
+                "Compression_ratio: 1": "12.5 : 1",
+                "TORQUE": " 318",
+                "COMPRESSION_RATIO": "11.74 (litres/100km)",
+                "TOP_TRACK_SPEED": "3.6s",
+                "0-100_km/h": "Automatic",
+                "TYPE": "Automatic",
+                "DISPLACEMENT": "6 Speed "
+            },
+            "FEATURES % OPTION": "10-speaker premium Burmester sound systemwith 640W of power. Modern entertainment system Comand Online. The touch screen is 10.25 inches wide. Digital instrument panel with 12.3-inch screen. Connect to the Apple Carplay and Android Auto apps. <br> Consequat massa <br> Pellentesque lacus urna, feugiat non consectetur nec. Aliquam sem neque, efficitur atero lectus vitae. Pellentesque erat libero, eleifend sit amet felis ido. Maecenas eget consectetur quam. Vestibulum ligula. Praesent lorem sapien, vestibulum eget aliquet et.",
+            "LOCATION": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.325316305318!2d106.66372207490795!3d10.786376989362969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed23c80767d%3A0x5a981a5efee9fd7d!2zNTkwIMSQLiBDw6FjaCBN4bqhbmcgVGjDoW5nIDgsIFBoxrDhu51uZyAxMSwgUXXhuq1uIDMsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1687754517839!5m2!1svi!2s"
+        },
+        {
+            "image": {
+                "img-1": "./image/JEEP/jeep1_1.jpg",
+                "img-2": "./image/JEEP/jeep1_2.jpg",
+                "img-3": "./image/JEEP/jeep1_3.jpg",
+                "img-4": "./image/JEEP/jeep1_6.jpg"
+            },
+            "vehicle_parameters": "+ For Vietnamese users, Jeeps are always mentioned as a legend of off-road enthusiasts thanks to their ability to challenge the terrain. Up to now, although it has been through 4 generations with a lifespan of 80 years, the square design style of the military is still what makes these models attractive. <br> + After nearly 10 years, the Jeep brand marks its return to the Vietnamese market by opening the first genuine showroom in Ho Chi Minh City. Ho Chi Minh. In this comeback, Jeep Vietnam has brought to Vietnamese customers two powerful off-road vehicles, including the legendary iconic SUV Jeep Wrangler. <br>  + Over 70 years and 4 generations, Jeep Wrangler has always been known as a vehicle that pursues military style with its characteristic square design. The 5th generation of this SUV model is no exception with an appearance that has become the symbol of the Jeep brand. However, some details are modernized to make the car's appearance more premium.",
+            "technical": {
+                "NUMBER_OF_CYLINDERS": 6,
+                "DRIVE_LAYOUT": 8,
+                "Horsepower": "270 HP  585/6250",
+                "RMP": "5200-6250 rpm",
+                "TORQUE": "260 lb-ft @ 4000",
+                "COMPRESSION_RATIO": "Gasoline",
+                "COMPRESSION RATIO": "250 km/h",
+                "TOP_TRACK_SPEED": "11.74 (litres/100km)",
+                "0-100_km/h": "5.8 s ",
+                "TYPE": "Automatic",
+                "DISPLACEMENT": "8 Speed "
+            },
+            "FEATURES % OPTION": " Feature & Options <br> + Jeep Wrangler 2023 has a very special decal sticker design. The fog lights and headlights are also applied with extremely modern LED technology to optimize visibility for users when driving in any weather conditions. <br>  + The headlights on this 5-seater American brand SUV have a rounded design and use LED Projector technology with automatic on / off features, automatically adjusting the steering angle. Meanwhile, the turn signals are designed to be attached to the very own wheel arches and the fog lights are integrated in the front bumper. The new LED daytime running light system has more attractive and recognizable graphics than the old Wrangler generations. <br>  + The body of the car is made up of fairly square lines, the wheel arches are designed to be higher than that of a modern off-road terrain vehicle. In addition, Jeep Wrangler 2023 is also equipped with 17-inch wheels, accompanied by modern Gray Pay details, 32-inch Firestone terrain tires to help the performance of the vehicle. The car is the most optimal – and these details also contribute to the healthiest and mostfashionable beauty of the body. <br>  + Viewed from the body, the military vehicle character is continued to be clearly shown on the Jeep Wrangler with a square design, the car door uses an external hinge that can be easily disassembled. The SUV has dimensions of Length x Width x Height of 4,696 x 1,871 x 1,844 (mm), wheelbase of 2,946 mm and ground clearance of 438 mm.  ",
+            "LOCATION": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.325316305318!2d106.66372207490795!3d10.786376989362969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed23c80767d%3A0x5a981a5efee9fd7d!2zNTkwIMSQLiBDw6FjaCBN4bqhbmcgVGjDoW5nIDgsIFBoxrDhu51uZyAxMSwgUXXhuq1uIDMsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1687754517839!5m2!1svi!2s"
+        },
+        {
+            "image": {
+                "img-1": "./image/JEEP/jeep2_1.jpg",
+                "img-2": "./image/JEEP/jeep2_2.jpg",
+                "img-3": "./image/JEEP/jeep2_3.jpg",
+                "img-4": "./image/JEEP/jeep2_5.jpg"
+            },
+            "vehicle_parameters": " Powered by the available 3.0L EcoDiesel V6 engine, the Jeep® Gladiator offers Best-in-Class torque of up to 442 pound-feet ( Disclosure11) , so you can take on the toughest drives with ease. Plus, a fuel economy rating of up to 28 highway mpg ( Disclosure3) provides impressive efficiency. Whether crawling over off-road trails or towing cargo on the open road, this engine delivers. <br>  + Bring more on every adventure thanks to an available Best-in-Class 7,650-pound gas towing capacity ( Disclosure4) , a Best-in-Class 4x4 1,700-pound payload ( Disclosure5) and multiple ways to help keep it all secure. <br> + Mother Nature can throw a lot at you, and the Gladiator has the credentials to handle it. Rubicon makes light work of boulder-strewn trails thanks to front and rear lockers. Mojave–the first-ever Desert-Rated Jeep® Brand vehicle–turns unforgiving dunes into playgrounds with standard FOX 2.5-inch internal bypass shocks and a rear locker that works at higher speeds",
+            "technical": {
+                "Number of seats (seats)": 6,
+                "Displacement (cc)": 2023,
+                "DRIVE_LAYOUT": 8,
+                "HOSEPOWER": "285 HP",
+                "RMP": "6400 rpm  ",
+                "TORQUE": "347 lb-ft @ 4000",
+                "COMPRESSION_RATIO": " Gasoline  ",
+                "TOP_TRACK_SPEED": "250 km/h  ",
+                "0-100_km/h": "5.8 s  ",
+                "TYPE": "Automatic",
+                "DISPLACEMENT": "8 Speed"
+            },
+            "FEATURES % OPTION": "Feature & Options <br>  + The Jeep® Gladiator comes equipped with impressive technology like the available Uconnect® system with 8.4-inch touchscreen, GPS and Voice Command. <br> + The pickup truck is reimagined with authentic Jeep® Brand style and a level of open-air freedom that has never been seen in a truck. When it comes to the look of adventure, this is it. <br> + With available intuitive technology, rugged materials, refined details and thoughtful storage that will surprise you, this cabin is designed for total comfort and convenience. <br>  + Available Blind Spot Monitoring ( Disclosure6) and Adaptive Cruise Control with Full Stop ( Disclosure7) are just two ways Gladiator helps you anticipate the journey ahead. Discover over 80 standard and available safety and security features in total.",
+            "LOCATION": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.325316305318!2d106.66372207490795!3d10.786376989362969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed23c80767d%3A0x5a981a5efee9fd7d!2zNTkwIMSQLiBDw6FjaCBN4bqhbmcgVGjDoW5nIDgsIFBoxrDhu51uZyAxMSwgUXXhuq1uIDMsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1687754517839!5m2!1svi!2s"
+        }
+    ]
+}
