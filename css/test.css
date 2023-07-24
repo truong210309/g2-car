@@ -7,17 +7,10 @@ img {
   }
   
   /* Position the image container (needed to position the left and right arrows) */
-<<<<<<< HEAD
   /* .container {
     position: relative;
     
   } */
-=======
-  .container {
-    position: relative;
-    
-  }
->>>>>>> 9f6879bd333dbedb3c33fef674b6ec93fe68b732
   
   /* Hide the images by default */
   .mySlides {

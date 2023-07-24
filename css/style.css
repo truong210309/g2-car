@@ -883,17 +883,8 @@ header.sticky {
 .footer2__item-icon:hover {
     background-color: rgb(57, 57, 58);
 }
-<<<<<<< HEAD
 
 
-=======
-/* 
-.hr {
-    border: 1px solid;
-    color: #adadad;
-    background-color: #b9b9b9;
-} */
->>>>>>> 9f6879bd333dbedb3c33fef674b6ec93fe68b732
 
 .copyright__copy {
 
@@ -1630,10 +1621,6 @@ header.sticky {
 }
 
 .contact__address {
-<<<<<<< HEAD
-=======
-    margin-top: 20px;
->>>>>>> 9f6879bd333dbedb3c33fef674b6ec93fe68b732
     width: 100%;
     box-shadow: rgba(146, 146, 146, 0.814) 3px 10px 14px 7px;
     /* background-color: #e7f1bc; */
@@ -1646,15 +1633,9 @@ header.sticky {
     height: 454px;
 }
 
-<<<<<<< HEAD
 .contact__address.hyphenated-lines{
     background-color: #ffc925;
     height: 3px;
-=======
-.hr{
-    background-color: rgb(233, 209, 0);
-    height: 6px;
->>>>>>> 9f6879bd333dbedb3c33fef674b6ec93fe68b732
     border: none;
 }
 
@@ -1679,12 +1660,7 @@ header.sticky {
 .tabcontent {
     color: rgb(0, 0, 0);
     display: none;
-<<<<<<< HEAD
     padding: 52px 20px;
-=======
-    padding: 100px 20px;
- 
->>>>>>> 9f6879bd333dbedb3c33fef674b6ec93fe68b732
     flex-wrap: wrap;
 }
 
@@ -1748,15 +1724,12 @@ a {
 
 }
 
-<<<<<<< HEAD
 .hyphenated-lines {
   background-color: orange;
   height: 3px;
   width: 100%;
 }
 
-=======
->>>>>>> 9f6879bd333dbedb3c33fef674b6ec93fe68b732
 .wrapper-carousel{
     max-width:20%;
     display: flex;
@@ -1847,29 +1820,20 @@ a {
     flex-wrap: wrap;
    
 
-<<<<<<< HEAD
 }
 
 .vehicle-extra>li {
     list-style: none;
-=======
->>>>>>> 9f6879bd333dbedb3c33fef674b6ec93fe68b732
 }
 
 .tabcontent2{
     background-color: #dea515 ;
     color: white;
     display: none;
-<<<<<<< HEAD
     padding: 100px 20px;
     padding-left: 45px;
     flex-wrap: wrap;
     
-=======
-
-
- 
->>>>>>> 9f6879bd333dbedb3c33fef674b6ec93fe68b732
 }
 
 .tabcontent3{
@@ -1905,11 +1869,6 @@ a {
  
  
     
-}
-.tadcontents{
-    width: 100%;
-    padding: 100px 20px;
-    min-height: 500px;
 }
 
 .contact-information {
