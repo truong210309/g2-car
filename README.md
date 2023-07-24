@@ -14,7 +14,7 @@ eProject documentation at https://github.com/truong210309/g2-car/tree/main/Docum
 
 ============================
 
-eProject published at https://
+eProject published at https://truong210309.github.io/g2-car/
 
 ============================
 
