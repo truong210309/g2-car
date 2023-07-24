@@ -10,7 +10,7 @@ Nguyen Quang Linh          Student1462827
 
 ============================
 
-eProject documentation at https://github.com/truong210309/4.Eproject-Group2/tree/main/documentation
+eProject documentation at https://github.com/truong210309/g2-car/tree/main/Document
 
 ============================
 
