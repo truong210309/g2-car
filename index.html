@@ -101,63 +101,25 @@
                             <i class="fa fa-angle-down"></i>
                         </a>
                         <div class="submenu__mega">
+                            <h4 class="title-submenu">Pre-Owned Cars</h4>
                             <div class="row">
-                                <div class="col-sm-3">
-                                    <h4 class="title-submenu">Pre-Owned Cars</h4>
+                                <div class="col-sm-6" ng-repeat="item in cars | limitTo:4">
+                                    
                                     <div class="product-list">
                                         <div class="name-product">
-                                            <a href="#!/product/audi" class="">
+                                            <a href="#!/detail/{{item.id}}" class="">
                                                 <div class="img-wrap"> <img style="width:100%; height: 50px;"
-                                                        src="image/Audi/Audi 5 A4.jpg" alt=""></div>
+                                                        src="{{item.image}}" alt=""></div>
                                                 <div class="title-price-wrap">
                                                     <div class="car-title">
-                                                        Audi Q5 2.0 AT
+                                                        {{item.name}}
                                                     </div>
-                                                    <div class="prices">$78 000</div>
+                                                    <div class="prices">{{item.price}}</div>
                                                 </div>
 
                                             </a>
                                         </div>
-                                        <div class="name-product">
-                                            <a href="#!/product/bmw" class="">
-                                                <div class="img-wrap"> <img style="width:100%; height: 50px;"
-                                                        src="image/mercedes/mercedes6 GLC 200.jpg" alt=""></div>
-                                                <div class="title-price-wrap">
-                                                    <div class="car-title">
-                                                        Mercedes-Benz GLC200
-                                                    </div>
-                                                    <div class="prices">$72 000</div>
-                                                </div>
 
-                                            </a>
-                                        </div>
-                                        <div class="name-product">
-                                            <a href="#!/product/bmw" class="">
-                                                <div class="img-wrap"> <img style="width:100%; height: 50px;"
-                                                        src="image/JEEP/jeep1_2 DONE (2).jpg" alt=""></div>
-                                                <div class="title-price-wrap">
-                                                    <div class="car-title">
-                                                        Jeep-Wrangler
-                                                    </div>
-                                                    <div class="prices">$161 000</div>
-                                                </div>
-
-                                            </a>
-                                        </div>
-                                        <div class="name-product">
-                                            <a href="" class="">
-                                                <div class="img-wrap"> <img style="width:100%; height: 50px;"
-                                                        src="image/BMW/BMW_520i_seden_Cũ DONE (2).jpg" alt=""></div>
-                                                <div class="title-price-wrap">
-                                                    <div class="car-title">
-                                                        BMW-520i
-
-                                                    </div>
-                                                    <div class="prices">$98 000</div>
-                                                </div>
-
-                                            </a>
-                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
@@ -178,7 +140,6 @@
                                         <li><a href="#!/product/jeep"> Cheaper Cars</a></li>
                                     </ul>
                                 </div>
-
                                 <div class="col-sm-3">
                                     <h4 class="title-submenu">Contacts</h4>
                                     <ul class="name__car">
